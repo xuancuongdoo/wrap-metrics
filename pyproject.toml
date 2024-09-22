@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "metrics-collector-project"
+version = "0.1.0"
+description = ""
+authors = ["Xuan Cuong <64152374+xuancuongdoo@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.9.2"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.9"
+pydantic-settings = "^2.5.2"
+loguru = "^0.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
